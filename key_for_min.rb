@@ -4,5 +4,5 @@
 def key_for_min_value(name_hash)
   #another_hash = nil
   #key_for_min_value.inject {|name, number|}
-  hash.inject { |m,a| m[1] > a[1] ? a : m }[0] unless hash.empty?
+  name_hash.inject { |m,a| m[1] > a[1] ? a : m }[0] unless name_hash.empty?
 end
